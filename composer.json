@@ -1,0 +1,25 @@
+{
+	"keywords" : [
+		"phalcon-view-engine-smarty"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"PhalconViewEngine\\" : "src"
+		}
+	},
+	"name" : "phalcon-framwork/view-engine",
+	"type" : "phalcon-view-engine",
+	"description" : "phalcon view smarty引擎适配器",
+	"license" : "Apache-2.0",
+	"authors": [
+	    {
+	      	"name": "zhaoyang",
+	      	"email": "1134856531@qq.com",
+	      	"homepage": "https://github.com/zhaoyang1214"
+	    }
+	],
+	"require" : {
+		"php" : ">=7.0",
+		"smarty/smarty": "~3.1"
+	}
+}
